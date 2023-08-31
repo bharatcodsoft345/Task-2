@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prerna Kushwaha - Web Developer</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and font styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #7a2525;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        /* Navigation styles */
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+
+        /* Main content styles */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin-top: 2rem;
+           
+        }
+
+        .heading {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .sub-heading {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #555;
+        }
+
+        /* Portfolio styles */
+        .portfolio-item {
+            margin-bottom: 2rem;
+        }
+
+        .portfolio-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Contact form styles */
+        form {
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #444;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Prerna Kushwaha</h1>
+        <p>Web Developer</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="about">
+        <h2 class="heading">About Me</h2>
+        <p class="sub-heading">Passionate Web Developer</p>
+        <p>
+            I am a dedicated web developer with a passion for creating user-friendly and visually appealing websites.
+            With a strong background in computer science and a creative mindset, I bring a unique blend of technical
+            skills and design aesthetics to every project I work on My specialization centers around the dynamic trio of HTML, CSS, and JavaScript, enabling me to breathe life into captivating and functional websites. My unique ability to blend aesthetics with functionality stems from a keen design sensibility. I'm dedicated to consistently delivering top-notch results and make it a point to stay ahead of the curve by embracing the latest trends and industry best practices.
+
+For me, web development is more than just code; it's about embracing challenges that expand my horizons and invite me to explore cutting-edge technologies. My aptitude for troubleshooting and my meticulous attention to detail ensure that every website I create isn't just visually pleasing, but also offers a seamless user experience. Collaboration is at the heart of my approach, and I thrive on team efforts that lead to extraordinary results.
+
+Beyond coding, I find joy in keeping up with emerging tech and refining my skills through workshops. My dedication to excellence is unwavering, and I am committed to consistently delivering solutions that surpass expectations. Let's come together to build something truly exceptional!.
+        </p>
+    </div>
+    <div class="container" id="portfolio">
+        <h2 class="heading">Portfolio</h2>
+        <p class="sub-heading">Recent Projects</p>
+        <div class="portfolio-item">
+            <img src="project1.png" alt="Project 1" class="portfolio-image">
+            <h3>Project 1</h3>
+            <h4>A Wedding Cake shop</h4>
+            <p>We already do a great trade with the locals with our special coffees and gourmet pies, but there are also loads of small tour operators that drive past here every day. We thought that getting a simple brochure-type website up for the store would enable us to hand out business cards with the web address to tour operators who might be looking for a cosy atmosphere with great food and coffee on a rainy day.
+                I guess if I had to sum up what I wanted people to think of when they looked at the site, it would be the same thing that I'd want them to feel entering our cafe: great coffee, tantalizing food in a classy but comfortable atmosphere. I'd love to chat to someone about what's possible....</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="project2.png" alt="Project 2" class="portfolio-image">
+            <h3>Project 2</h3>
+            <p>Ecommerce, also known as electronic commerce or internet commerce.
+
+                Buying and selling of goods or services using the internet and transferring money and data to execute these transactions. Start your own online clothing store business.
+                
+                Selling apparel online is a very profitable business with a $90 billion-a-year revenue. Statista predicts that the apparel and accessories online retail sector in the U.S. will generate about 138 billion dollars in revenue by 2022. ... Still, the online apparel market is a very competitive one
+                
+                .</p>
+        </div>
+        <!-- Add more portfolio items as needed -->
+    </div>
+    <div class="container" id="contact">
+        <h2 class="heading">Contact Me</h2>
+        <p class="sub-heading">Let's Get in Touch</p>
+        <form action="submit_form.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+</body>
+</html>
+
